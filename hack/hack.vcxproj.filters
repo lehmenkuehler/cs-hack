@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="control.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="equipment.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="parser.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="aim_assist.cpp">
+      <Filter>Source\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="aimbot.cpp">
+      <Filter>Source\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="glow.cpp">
+      <Filter>Source\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="triggerbot.cpp">
+      <Filter>Source\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="recoil_control.cpp">
+      <Filter>Source\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="weapon.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>Source\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="axis.cpp">
+      <Filter>Source\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="output.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="weapon.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="glow_data.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="equipment.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="control.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="configuration.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="aim_assist.h">
+      <Filter>Header\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>Header\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="glow.h">
+      <Filter>Header\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="recoil_control.h">
+      <Filter>Header\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="triggerbot.h">
+      <Filter>Header\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="axis.h">
+      <Filter>Header\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Header\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>Header\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="output.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{a50e8b80-07ae-48d8-a926-227033578ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{6a574879-2786-44fb-b2c7-6499322b7b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Features">
+      <UniqueIdentifier>{0307ee89-911d-4679-8c9d-29421b83dd39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Features">
+      <UniqueIdentifier>{cd18748b-6690-40b2-8713-00ed1d4b7db9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utility">
+      <UniqueIdentifier>{aec33fce-5204-4970-aef0-30b07d4c40fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Utility">
+      <UniqueIdentifier>{0a7e9bc3-e6fc-4d3e-ad29-f174ea555bf1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
